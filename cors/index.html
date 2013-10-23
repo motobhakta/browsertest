@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AJAX Tests Index:</title>
+		<style>
+			a
+			{
+				display:block;
+			}
+		</style>
+		<script src="api/rhoapi-modules.js"></script>
+		<script type="text/javascript">
+		</script>
+    </head>
+<body>
+	<h1>AJAX JQuery Bug Test index</h1>
+	<p>This is the index page for testing the jQuery.ajax from FILE protocol bug fix</p>
+	<h2>
+		Original
+	</h2>
+    <div>
+		<a href="original/1.8.2.html">1.8.2</a>
+		<a href="original/1.8.2-min.html">1.8.2-min</a>
+		<a href="original/1.9.1.html">1.9.1</a>
+		<a href="original/1.9.1-min.html">1.9.1-min</a>
+	</div>
+	<h2>
+		Patched
+	</h2>
+    <div>
+		<a href="patched/1.8.2.html">1.8.2</a>
+		<a href="patched/1.8.2-min.html">1.8.2-min</a>
+		<a href="patched/1.9.1.html">1.9.1</a>
+		<a href="patched/1.9.1-min.html">1.9.1-min</a>
+	</div>
+	<button onclick="Rho.Application.quit()">Quit</button>
+</body>
+</html>
