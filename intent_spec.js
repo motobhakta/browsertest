@@ -15,7 +15,7 @@ If you are unsure which license is appropriate for your use, please contact the 
 Ext.require([
     'Ext.panel.Panel',
     'Ext.Action',
-    'Ext.button.Button',
+    'Ext.button.ButtonText',
     'Ext.window.MessageBox'
 ]);
 
