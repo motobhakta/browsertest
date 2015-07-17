@@ -59,7 +59,7 @@ Ext.onReady(function(){
             this.setText(action.isDisabled() ? 'Enable' : 'Disable');
         }
     }, {
-        text: 'Change Text where i need',
+        text: 'Change Text',
         handler: function(){
             Ext.Msg.prompt('Enter Text', 'Enter new text for Action 1:', function(btn, text){
                 if(btn == 'ok' && text){
